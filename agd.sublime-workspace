@@ -1,0 +1,408 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"const\tkeyword"
+			],
+			[
+				"im",
+				"import\tkeyword"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"proje",
+				"Project: Close"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"utils",
+				"Permute Lines: Shuffle"
+			],
+			[
+				"uti",
+				"UI: Select Theme"
+			],
+			[
+				"erro",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"goto erro",
+				"SublimeLinter: Goto Error"
+			],
+			[
+				"git",
+				"GitGutter: Revert Change to Commit"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"open ",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"prett",
+				"Preferences: JsPrettier Settings - Default"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"error",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"gitgutter",
+				"GitGutter: Revert Change to Commit"
+			],
+			[
+				"goto error",
+				"GitGutter: Compare Against Origin"
+			],
+			[
+				"ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ui ",
+				"UI: Select Color Scheme"
+			],
+			[
+				"ui co",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"got",
+				"TypeScript: GoTo Definition"
+			],
+			[
+				"prettier",
+				"Preferences: JsPrettier Settings - Default"
+			],
+			[
+				"set",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"prefe",
+				"Preferences: Key Bindings"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/agd"
+	],
+	"file_history":
+	[
+		"/D/ts-pixi-starter/app/index.ts",
+		"/D/ts-pixi-starter/index.ejs",
+		"/D/ts-pixi-starter/package.json",
+		"/D/ts-pixi-starter/README.md",
+		"/D/ts-pixi-starter/.editorconfig",
+		"/D/cg/app/Card.ts",
+		"/D/cg/app/utils.ts",
+		"/D/cg/app/Deck.ts",
+		"/D/cg/app/index.ts",
+		"/D/ts-pixi-starter/renovate.json",
+		"/C/Users/vguen/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/vguen/AppData/Roaming/Sublime Text 3/Packages/User/JsPrettier.sublime-settings",
+		"/D/cg/tslint.json",
+		"/D/cg/package.json",
+		"/C/Users/vguen/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/vguen/AppData/Roaming/Sublime Text 3/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/D/cg/node_modules/@types/pixi.js/index.d.ts",
+		"/C/Users/vguen/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/vguen/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/cg/index.ejs"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 135.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.SublimeLinter":
+	{
+		"height": 124.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 136.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.errorlist":
+	{
+		"height": 124.0
+	},
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "agd.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"",
+				"app\\Card.ts"
+			],
+			[
+				"uti",
+				"app\\utils.ts"
+			],
+			[
+				"tsli",
+				"tslint.json"
+			],
+			[
+				"car",
+				"app\\Card.ts"
+			],
+			[
+				"deck",
+				"app\\Deck.ts"
+			],
+			[
+				".pret",
+				".prettierrc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\card-game\\card-game.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

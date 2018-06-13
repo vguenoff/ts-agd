@@ -35,7 +35,7 @@ export class RectShapesGradient {
 
         // create a gradient
         // const gradient = ctx.createLinearGradient(10, 10, 70, 80);
-        const gradient = ctx.createRadialGradient(40, 40, 10, 80, 80, 80);
+        const gradient = ctx.createRadialGradient(40, 40, 1, 40, 40, 30);
         gradient.addColorStop(0, '#FFE9E9');
         gradient.addColorStop(1, '#FF1DA2');
 
@@ -43,7 +43,7 @@ export class RectShapesGradient {
         ctx.strokeStyle = '#FC4A4A';
         ctx.lineWidth = 3;
         ctx.beginPath();
-        ctx.rect(10, 10, 70, 80);
+        ctx.rect(20, 20, 40, 40);
         ctx.stroke();
         ctx.fill();
 

@@ -3,7 +3,9 @@ import { CirclesArcs } from './01-cirles-arcs';
 import { RotationScaleTransparency } from './02-rotation-scale-transparency';
 import { BlendModes } from './03-blend-modes';
 import { ShapesWithImages } from './04-shapes-with-images';
+import { BlittingImage } from './05-blitting-image';
 
+const bi = new BlittingImage();
 const swi = new ShapesWithImages();
 const bm = new BlendModes();
 const rmb = new RotationScaleTransparency();

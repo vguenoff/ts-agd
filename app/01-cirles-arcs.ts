@@ -1,5 +1,3 @@
-import { drawPath } from './utils';
-
 export class CirclesArcs {
     constructor() {
         const canvas = document.createElement('canvas');
@@ -17,10 +15,25 @@ export class CirclesArcs {
         ctx.strokeStyle = 'black';
         ctx.lineWidth = 3;
 
+        ctx.shadowColor = 'rgba(128, 128, 128, 0.9)';
+        ctx.shadowOffsetX = 3;
+        ctx.shadowOffsetY = 3;
+        ctx.shadowBlur = 10;
+
         ctx.beginPath();
         ctx.arc(128, 128, 64, 0, Math.PI * 2, true);
         ctx.stroke();
         ctx.fill();
+
+        ctx.beginPath();
+        ctx.moveTo(32, 18);
+        ctx.quadraticCurveTo(128, 40, 224, 18);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.moveTo(32, 120);
+        ctx.bezierCurveTo(32, 20, 224, 20, 224, 128);
+        ctx.stroke();
 
         document.body.appendChild(canvas);
     }

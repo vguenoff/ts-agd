@@ -11,7 +11,6 @@ export class BlittingImage {
         tileset.src = '../assets/images/tileset.png';
         tileset.addEventListener('load', () => {
             ctx.drawImage(tileset, 192, 128, 64, 64, 96, 96, 64, 64);
-            // the source x and y position; the source height and width;
             // the source x and y position; the source height and width
         });
 

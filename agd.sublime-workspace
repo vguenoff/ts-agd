@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"PI\tproperty"
+			],
+			[
+				"fill",
+				"fill\tmethod"
+			],
+			[
+				"globa",
+				"globalCompositeOperation\tproperty"
+			],
+			[
+				"tra",
+				"translate\tmethod"
+			],
+			[
 				"fi",
 				"fillStyle\tproperty"
 			],
@@ -40,10 +56,6 @@
 				"Canvas2DContextAttributes\tinterface"
 			],
 			[
-				"fill",
-				"fillStyle\tproperty"
-			],
-			[
 				"c",
 				"ctx\tproperty"
 			],
@@ -72,21 +84,12 @@
 	"buffers":
 	[
 		{
-			"file": "app/utils.ts",
-			"settings":
-			{
-				"buffer_size": 278,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/index.ts",
 			"settings":
 			{
-				"buffer_size": 182,
+				"buffer_size": 618,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -102,9 +105,42 @@
 			"file": "app/01-cirles-arcs.ts",
 			"settings":
 			{
-				"buffer_size": 1162,
+				"buffer_size": 1125,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/02-rotation-scale-transparency.ts",
+			"settings":
+			{
+				"buffer_size": 767,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/03-blend-modes.ts",
+			"settings":
+			{
+				"buffer_size": 773,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/04-shapes-with-images.ts",
+			"settings":
+			{
+				"buffer_size": 1006,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/05-blitting-image.ts",
+			"settings":
+			{
+				"buffer_size": 639,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -120,6 +156,54 @@
 		"selected_items":
 		[
 			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"git add ",
+				"Git: Add All"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git a",
+				"Git: Add All"
+			],
+			[
 				"prett",
 				"Preferences: JsPrettier Settings - User"
 			],
@@ -130,10 +214,6 @@
 			[
 				"key",
 				"Preferences: Key Bindings"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"lint",
@@ -182,10 +262,6 @@
 			[
 				"sublime",
 				"SublimeLinter: Show All Errors"
-			],
-			[
-				"list",
-				"Package Control: List Packages"
 			],
 			[
 				"open",
@@ -293,10 +369,14 @@
 	"expanded_folders":
 	[
 		"/D/agd",
-		"/D/agd/app"
+		"/D/agd/app",
+		"/D/agd/assets",
+		"/D/agd/assets/images"
 	],
 	"file_history":
 	[
+		"/D/agd/assets/images/tileset.png",
+		"/D/agd/app/utils.ts",
 		"/D/agd/.prettierrc",
 		"/C/Users/vguen/AppData/Roaming/Sublime Text 3/Packages/User/JsPrettier.sublime-settings",
 		"/C/Users/vguen/AppData/Roaming/Sublime Text 3/Packages/User/.gitignore",
@@ -341,6 +421,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"//",
+			"BlendModes",
+			"128",
+			"triangle",
+			"drawPath",
+			"CirclesArcs",
 			"10",
 			"64",
 			"128",
@@ -379,74 +465,34 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/utils.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 278,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								278,
-								278
-							]
-						],
-						"settings":
-						{
-							"SL.131.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"_anf_new": "",
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true,
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": true,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "app/index.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 182,
+						"buffer_size": 618,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								167,
-								167
+								380,
+								380
 							]
 						],
 						"settings":
 						{
+							"SL.13.region_keys":
+							[
+							],
+							"SL.14.region_keys":
+							[
+							],
 							"SL.30.region_keys":
 							[
 								"sublime_linter.protected_regions"
@@ -470,11 +516,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "app/00-rect-shapes-gradients.ts",
 					"semi_transient": false,
 					"settings":
@@ -486,12 +532,18 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								866,
+								866
 							]
 						],
 						"settings":
 						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.15.region_keys":
+							[
+							],
 							"SL.67.region_keys":
 							[
 								"sublime_linter.protected_regions"
@@ -517,38 +569,231 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "app/01-cirles-arcs.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1162,
+						"buffer_size": 1125,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								590,
-								590
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"SL.15.region_keys":
+							[
+							],
 							"SL.157.region_keys":
 							[
 								"sublime_linter.protected_regions"
 							],
 							"SL.16.region_keys":
 							[
-								"SL.tslint.Highlights.|c4d176d456b963be1a9add5b070ccff1a13a8dd1e4e3356eb5b345c57ddeccec|region.redish markup.error.sublime_linter|32",
-								"SL.tslint.Highlights.|36f6519a0efef366ca7d5d556f59b6913027005f7d113137061c381cddcbfcaf|region.redish markup.error.sublime_linter|32",
-								"sublime_linter.protected_regions",
-								"SL.tslint.Gutter.|region.redish markup.error.sublime_linter|dot"
+								"sublime_linter.protected_regions"
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/02-rotation-scale-transparency.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								767,
+								767
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"SL.19.region_keys":
+							[
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/03-blend-modes.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"SL.17.region_keys":
+							[
+							],
+							"SL.20.region_keys":
+							[
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/04-shapes-with-images.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1006,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								372
+							]
+						],
+						"settings":
+						{
+							"SL.18.region_keys":
+							[
+							],
+							"SL.29.region_keys":
+							[
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/05-blitting-image.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								292,
+								292
+							]
+						],
+						"settings":
+						{
+							"SL.19.region_keys":
+							[
+							],
+							"SL.37.region_keys":
+							[
+								"sublime_linter.protected_regions"
 							],
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
@@ -630,6 +875,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 155.0
 	},
 	"output.mdpopups":
 	{

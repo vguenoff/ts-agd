@@ -128,7 +128,10 @@ export const assets = {
         // document. It's kind of a hack, but until HTML5 has a
         // proper font loading API, it will do for now
         const newStyle = document.createElement('style');
-        const fontFace = `@font-face {font-family: ${fontFamily}'; src: url('${source}');}`;
+        const fontFace = `@font-face {
+            font-family: ${fontFamily}';
+            src: url('${source}');
+        }`;
 
         newStyle.appendChild(document.createTextNode(fontFace));
         document.head.appendChild(newStyle);
@@ -173,6 +176,7 @@ export const assets = {
         // Send the request to load the file
         xhr.send();
     },
+
     createTilesetFrames(file, source, loadHandler) {
         // Get the tileset image's file path
         const baseUrl = source.replace(/[^\/]*$/, '');

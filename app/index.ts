@@ -5,7 +5,9 @@ import { BlendModes } from './03-blend-modes';
 import { ShapesWithImages } from './04-shapes-with-images';
 import { BlittingImage } from './05-blitting-image';
 import { Text } from './06-text';
+import { TextureAtlas } from './07-texture-atlas';
 
+const ta = new TextureAtlas();
 const t = new Text();
 const bi = new BlittingImage();
 const swi = new ShapesWithImages();

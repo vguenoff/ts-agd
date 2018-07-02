@@ -1,11 +1,12 @@
 {
-    "defaultSeverity": "error",
-    "extends": ["tslint:recommended"],
-    "jsRules": {},
-    "rules": {
-        "quotemark": ["single"],
-        "arrow-parens": false,
-        "no-console": false
-    },
-    "rulesDirectory": []
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "quotemark": ["single"],
+    "arrow-parens": false,
+    "no-console": false,
+    "object-literal-sort-keys": false
+  },
+  "rulesDirectory": []
 }
